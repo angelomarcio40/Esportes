@@ -44,6 +44,7 @@ footer{
 .destaques-colunas{
     width: 50%;
     height: 500px;
+    float: left;
 }
 
 #categorias{
@@ -64,3 +65,17 @@ footer{
 /* final desktop */
 
 /* inicio mobile */
+
+@media only screen and (max-width: 768px) {
+    body{
+        font-size: 12px;
+        float: none;
+    }
+
+    #icone-responsivo{
+        display: block;
+        padding: 10px;
+        color: #fff;
+        cursor: pointer;
+    }
+}
